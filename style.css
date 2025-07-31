@@ -1,0 +1,54 @@
+:root{
+    --cor-fundo: #ffa2f1ff ;
+    --cor-principal: #ff1addd5 ; ;
+    --cor-secundaria: #8d017aff; 
+    --cor-destaque: #ffffffff ;
+    --cor-texto: #D7F9FF;
+
+}
+
+
+
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url('glitter2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
